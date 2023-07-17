@@ -28,9 +28,10 @@ clickHandle=(e)=>{
     }
     this.state.EmpDep.push(newObj);
     this.setState({EmpDep:this.state.EmpDep})
-    this.state.Name='';
-    this.state.Dept='';
-    this.state.Rating='';
+    this.setState({Name:""})
+    this.setState({Dept:""})
+    this.setState({Rating:""})
+   
 }
     render(){
         return(
